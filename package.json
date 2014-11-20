@@ -1,0 +1,11 @@
+{
+  "name": "mapboxgl-heatmap",
+  "version": "0.1.0",
+  "description": "Rudamentary MapBoxGL Plugin to add ability to add a heatmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Rousseau",
+  "license": "MIT"
+}
