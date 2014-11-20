@@ -8,6 +8,7 @@ function HM(map) {
     heatmap_canvas.style.top = '0px';
     heatmap_canvas.style.bottom = '0px';
     heatmap_canvas.style.width = '100%';
+    heatmap_canvas.style.height = '100%';
     map.container.appendChild(heatmap_canvas);
 
     map.on('move', (this._resetHeatmap).bind(this));
