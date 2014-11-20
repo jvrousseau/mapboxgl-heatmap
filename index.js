@@ -56,7 +56,6 @@ HM.prototype._resizeCanvas = function (width, height) {
 }
 
 HM.prototype.addPoint = function (x, y, size, intensity) {
-    console.log(x + ' - ' + y);
     this.heatmap.addPoint(x, y, size, intensity);
 }
 
